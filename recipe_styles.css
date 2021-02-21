@@ -1,0 +1,195 @@
+    /*1. Various simple selectors*/
+    h1 {
+        color:#505EA5; 
+        font-size:35px; 
+        font-family:'Bodony 72', serif;
+        font-weight: bold;
+        text-align:center;
+    }
+
+    h2 {
+        color:#9C89B8; 
+        font-size:25px; 
+        font-family:'Bodony 72', serif;
+        font-weight: bold;
+        text-align:center;
+        padding-left:20px;
+    }
+    
+    
+    p {
+        color:#5E503F; 
+        font-size:18px; 
+        font-family:SourceSerifPro, serif; 
+        text-align:left;
+        padding-left:20px;
+    }
+    .p2 {
+        color:#5E503F; 
+        font-size:18px; 
+        font-family:SourceSerifPro, serif; 
+        text-align:center;
+    }
+
+    .p3 {
+        color:#e60f8c;
+        }
+
+    ul {
+        color:#5E503F; 
+        font-size:18px; 
+        font-family:SourceSerifPro, serif; 
+        text-align:left;
+        padding-left:45px;
+    }
+
+    ol {
+        color:#5E503F; 
+        font-size:18px; 
+        font-family:SourceSerifPro, serif; 
+        text-align:left;
+        padding-left:45px;
+        line-height: 2;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mydiv {
+        background-color:#D4CCE0;
+        border:#D4CCE0;
+        padding: 10px 20px 10px 10px;
+        opacity:0.9;
+        width:350px;
+        border-radius:5%;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:35px;
+    }
+
+    .full-width {
+        position: absolute;
+        left:0px;
+        right:0px;
+    }
+
+    span {
+        font-weight: 900;
+        color: rgb(190, 42, 171);
+    }
+
+    
+    /*How to insert your own fonts. You need to add it to your directory and apply the following selectors*/ 
+    @font-face { 
+        font-family: SourceSerifPro; 
+        src: url('SourceSerifPro-Regular.ttf'); 
+    } 
+ 
+    @font-face { 
+        font-family: SourceSerifPro; 
+        font-weight: bold; 
+        src: url('SourceSerifPro-Regular.ttf');}
+
+    @font-face { 
+        font-family: 'Bodony 72'; 
+        src: url('Bodoni\ 72.ttc'); 
+    } 
+ 
+    @font-face { 
+        font-family: 'Bodony 72'; 
+        font-weight: bold; 
+        src: url('Bodoni\ 72.ttc');
+    }  
+
+    /*2. Pseudo class selectors*/
+    a:link {
+        color:rgb(6, 66, 94);
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+    a:active {
+        color: rgb(15, 168, 9);
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+    a:visited {
+      color: rgb(177, 56, 56);
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    .mydiv:hover{
+        background:#C8CDE4;
+        } 
+
+    /*More Pseudo class selectors*/
+
+    /*a:hover {
+        background-color:rgb(177, 137, 137);
+        color:white;
+        }*/
+
+    /*.p2:hover {
+        background-color:rgb(221, 27, 27);
+        color:white;
+        }*/
+
+
+    /*3.Combinator selectors*/
+
+    /*Combinator selector that makes header with type h2 pink and larger in size*/
+    div + h2 {
+        color: rgb(190, 42, 171);
+        font-size:xx-large;
+        }
+
+    /* Descendant selector matches all elements that are descendants of a specified element. 
+    Styles all <p> elements that are inside <div> elements */
+    /*div p{
+        background-color: rgb(90, 196, 86);
+        color: white;
+    }*/ 
+
+    /*The + selector is used to select an element that is directly after another specific element.
+    The following example selects only the FIRST p element that is placed immediately after div elements: 
+    Styles all <p> elements that are placed immediately after a <div> element.*/
+    /*div + p{
+        background-color: rgb(143, 86, 196);
+        color: white;
+        border-radius: 5px;
+        margin-right: 950px;
+        }*/
+
+    /*General sibling selector (~) selects all elements that are siblings of a specified element*/
+    /*div ~ p {
+        background-color: rgb(143, 86, 196);
+        color: white;
+        border-radius: 5px;
+        margin-right: 950px;
+        }*/
+
+    /*The child selector (>) selects all elements that are the children of a specified element*/
+    div > p {
+        color: rgb(66, 6, 122);
+        }
+
+    /*4.Pseudo elements selectors*/
+
+    /*Styles first-letter in all descendants inside an element*/
+    /*div p:first-letter {
+        color: rgb(187, 17, 144);
+        font-size:xx-large;
+        }*/
+    
+    /*Styles first-letter in each first p element*/
+    p:first-of-type:first-letter{
+        color: rgb(43, 43, 110);
+        font-size: xx-large;
+        }
+    
+    
