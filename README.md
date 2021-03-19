@@ -1,4 +1,4 @@
-**Browse this selection of exercises to learn HTML and CSS Basics**
+# Browse this selection of exercises to learn HTML and CSS Basics
 
 -----
 
