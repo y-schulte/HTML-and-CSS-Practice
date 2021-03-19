@@ -1,3 +1,6 @@
 [submodule "Exercises"]
 	path = Exercises
 	url = https://github.com/y-schulte/Exercises
+[submodule "2021-02-23-SweetCandyExercise"]
+	path = 2021-02-23-SweetCandyExercise
+	url = ../2021-02-23-SweetCandyExercise
