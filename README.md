@@ -1,5 +1,8 @@
 **Browse this selection of exercises to learn HTML and CSS Basics**
 
+![CSSisAwesome](https://user-images.githubusercontent.com/78743837/111850920-dd965b80-8911-11eb-8683-17e71fc0586f.png)
+
+
 All exercises present real mockup html pages. This is practical for learning. 
 
 ***HOW TO***
