@@ -1,0 +1,205 @@
+        body { 
+            font-size: 62.5%;
+            background-color:#F0E6EF;
+        }   
+        
+        div {
+            padding: 5px;
+        }
+        
+        #div1 {
+            background-color: #D0F4DE;
+            border-radius: 15px;
+            padding: 10px;
+            margin: 25px 150px;
+          }
+
+        #div2 {
+            background-color: #E4C1F9;
+            border-radius: 15px;
+            padding: 10px;
+            margin: 25px 150px;
+          }
+
+        #div3 {
+            background-color: #A9DEF9;
+            border-radius: 15px;
+            padding: 10px;
+            margin: 25px 150px;
+          }
+        
+        header {
+            width: full-width;
+            height: 400px;
+            background: url('images/fly-d-JpV7WdTmDqw-unsplash.jpg');
+            background-size: cover;
+          }
+
+        .img1 {
+            float:right;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            }
+
+        .img2 {
+            float:left;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            }
+    
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+            }
+        
+        h1 {
+            /*color:#FF479D;*/
+            background-color: #ffcad4;
+            font-size: 3rem; 
+            font-family: Monoton,serif;
+            font-weight: bold;
+            text-align:center;
+            padding:20px;
+            margin: 0px;
+        }  
+
+        .strokeme {
+            color: #fda3cd;
+            text-shadow: -1px -1px 0 #FF479D, 1px -1px 0 #FF479D, -1px 1px 0 #FF479D, 1px 1px 0 #FF479D;
+          }
+        
+        h2 {
+            color:#E00069; 
+            font-size: 2rem; 
+            font-family: Quicksand-Regular,serif; 
+            font-weight: bold;
+            text-align:left;
+            padding-left:10px;
+            background-color:#FCF6BD;
+            border-radius: 5px;
+        } 
+        
+        h3 {
+            color:#8914CC; 
+            font-size: 1.5rem; 
+            font-family: Quicksand-Regular,serif; 
+            font-weight: bold;
+            text-align:left;
+            padding-left:10px;
+            background-color: #FCF6BD;
+            border-radius: 5px;
+        }  
+
+        p {
+            color:#000000; 
+            font-size: 1.2rem;
+            font-family: Quicksand-Regular,serif; 
+            text-align:left;
+            padding-left:10px;
+        }
+
+        ul {
+            color:#E00069; 
+            font-size: 1.2rem; 
+            font-family: Quicksand-Regular,serif; 
+            text-align:left;
+            padding-left:20px;
+            margin-left:20px;
+        }
+        
+        a:link {
+            color:#E00069;
+            background-color: transparent;
+            text-decoration: none;
+            font-weight:bold;
+        }
+        
+        a:visited {
+            color: #E00069;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color:#FCF6BD;
+            background-color:#5bd8f1;
+            }  
+        
+        h3:hover {
+            color:#5bd8f1;
+            }  
+
+        p:hover::selection {
+            background: yellow;
+            } 
+
+        @font-face { 
+            font-family: 'Monoton';
+            src: url('Monoton-Regular.ttf');
+        }
+
+        @font-face { 
+            font-family: 'Quicksand-Regular'; 
+            src: url('Quicksand-Regular.ttf');
+            } 
+
+        #fa-candicane::before,
+        #fa-candicane::after {
+            content: "\f786";
+            color: #8914CC;
+            padding: 5px;
+            font-family: FontAwesome;
+        }  
+        
+        #fa-cookie-bite::after {
+            content: "\f564";
+            color: #8914CC;
+            padding: 5px;
+            /*transform:rotate(180deg); */ 
+            font-family: FontAwesome;
+        }  
+        /* NOTE: I didn't manage to apply this class to h2. If you do it, it doesn't brin any changes */
+        .fa-rotate-90 {
+            -ms-transform:rotate(90deg);     /* Internet Explorer 9 */
+            -webkit-transform:rotate(90deg); /* Chrome, Safari, Opera */
+            transform:rotate(90deg);         /* Standard syntax */
+        }
+
+        #fa-back::after {
+            content: "\f0a8";
+            color: #8914CC;
+            padding: 10px;
+            font-family: FontAwesome;
+        }   
+
+        .fa-stack { 
+            font-size: 0.7rem; 
+        }
+        
+        i { 
+            vertical-align: middle;
+            padding:5px;
+           /* margin: 5px;*/
+        }
+
+            
+        /*Additional Styles*/
+        /*Selectors*/
+            /*div p {
+        background-color:rgba(218, 79, 15, 0.42);
+        }*/
+
+         /*div > p {
+        background-color:rgba(218, 79, 15, 0.42);*/
+   
+   
+   
+   
+
+
+
+    
