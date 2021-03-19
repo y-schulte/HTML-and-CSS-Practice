@@ -5,7 +5,7 @@
 ![CSSisAwesome](https://user-images.githubusercontent.com/78743837/111850920-dd965b80-8911-11eb-8683-17e71fc0586f.png)
 
 
-All exercises present real mockup html pages. This is practical for learning. 
+This repository stores real mockup html pages that I have built during my training for learning purposes. 
 
 ***HOW TO***
 - Click on the folder with the exercise to access its files
